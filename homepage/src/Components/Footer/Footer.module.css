@@ -1,0 +1,149 @@
+
+.footer {
+  background-color: #fff;
+  padding: 45px 60px 22px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 88px;
+  height: auto;
+}
+
+.companyName {
+  color: #323654;
+  font: 52px/100% Volkhov, sans-serif;
+  margin-top: 25px;
+}
+
+.decorativeImage {
+  width: 132px;
+  height: auto;
+  margin-top: 78px;
+}
+
+.linksSection {
+  display: flex;
+  gap: 60px;
+}
+
+.linkColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkTitle {
+  color: #707070;
+  font: 600 23px/142.2% Poppins, sans-serif;
+  text-transform: capitalize;
+}
+
+.linkList {
+  list-style-type: none;
+  padding: 0;
+  margin: 52px 0 0;
+  color: #707070;
+  font: 400 19px/53px Poppins, sans-serif;
+  text-transform: capitalize;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactTitle {
+  color: #707070;
+  font: 600 23px Poppins, sans-serif;
+  text-transform: capitalize;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+  color: #707070;
+  font: 400 19px/29px Inter, sans-serif;
+}
+
+.contactIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(202, 46, 85, 0.5);
+  margin: 28px 0;
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  color: #484848;
+  font: 400 17px/153% Poppins, sans-serif;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  width: 58px;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .companyName {
+    font-size: 40px;
+  }
+
+  .decorativeImage {
+    margin-top: 40px;
+  }
+
+  .linksSection {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .linkList {
+    margin-top: 20px;
+  }
+
+  .contactItem {
+    margin-top: 20px;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
