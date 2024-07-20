@@ -74,7 +74,8 @@ margin-top: 350px;
 .additionalImages {
   width: 39%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .additionalImage1 {
@@ -82,18 +83,18 @@ margin-top: 350px;
   height: auto;
 }
 
-/* .additionalImage2 {
-  width: 50px;
+.additionalImage2 {
+  width: 38%;
   height: auto;
   margin-top: 20px;
-} */
-
+}
+/* 
 .imageDots {
   display: flex;
   gap: 20px;
   margin-top: 69px;
   margin-left: 27px;
-}
+} */
 
 .dot {
   width: 11px;
