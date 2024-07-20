@@ -16,11 +16,11 @@ const Testimonials = () => {
           className={styles.testimonialImage}
         />
       </div>
-      <img
+      {/* <img
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/01aa3ebf3c241dae702c706c5e8e33d450bcf90046b873302b62882f8901cea5?apiKey=3d13fd40ad0c42f4bdd670568134c3ca&"
         alt=""
         className={styles.decorativeImage}
-      />
+      /> */}
     </section>
   );
 };

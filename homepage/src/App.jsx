@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
@@ -10,12 +9,13 @@ import ArtClasses from "./Components/ArtClasses/ArtClasses";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Footer from "./Components/Footer/Footer";
+import './App.css'
 
 const App = () => {
   return (
     <div className="app">
       <Header />
-      <main>
+     
         <Hero />
         <FeaturedCollection />
         <NewArrivals />
@@ -24,7 +24,7 @@ const App = () => {
         <ArtClasses />
         <ContactForm />
         <Testimonials />
-      </main>
+    
       <Footer />
     </div>
   );

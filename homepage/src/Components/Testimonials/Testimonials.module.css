@@ -26,6 +26,7 @@
   height: auto;
   border-radius: 10px;
   box-shadow: 0 20px 60px rgba(46, 33, 61, 0.08);
+  margin-bottom: 10px;
 }
 
 .decorativeImage {

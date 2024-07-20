@@ -82,11 +82,11 @@ margin-top: 350px;
   height: auto;
 }
 
-.additionalImage2 {
+/* .additionalImage2 {
   width: 50px;
   height: auto;
-  /* margin-top: 20px; */
-}
+  margin-top: 20px;
+} */
 
 .imageDots {
   display: flex;
