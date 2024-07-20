@@ -59,7 +59,8 @@
 
 .imageLabel {
   position: absolute;
-  bottom: 24px;
+top: 2px;
+margin-top: 350px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.8);
@@ -77,14 +78,14 @@
 }
 
 .additionalImage1 {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
 .additionalImage2 {
-  width: 210px;
+  width: 50px;
   height: auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .imageDots {

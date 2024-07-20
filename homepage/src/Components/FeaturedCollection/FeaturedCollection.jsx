@@ -40,11 +40,11 @@ const FeaturedCollection = () => {
             alt="Additional Artwork 1"
             className={styles.additionalImage1}
           />
-          <img
+          {/* <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/3417a034a508960e659642d21622f85c94393e9409967c8b2ee953be6340fba1?apiKey=3d13fd40ad0c42f4bdd670568134c3ca&"
             alt="Additional Artwork 2"
             className={styles.additionalImage2}
-          />
+          /> */}
           <div className={styles.imageDots}>
             <span className={styles.dot} />
             <span className={styles.dot} />
